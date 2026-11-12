@@ -1,0 +1,6 @@
+node_modules/
+dist/
+site/
+photos-original/
+.claude/
+*.log

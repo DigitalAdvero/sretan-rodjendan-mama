@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="bs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#FCF7F2" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Za jednu posebnu osobu ❤</title>
+    <meta name="description" content="Jedan mali poklon, ispunjen velikom ljubavlju." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Za jednu posebnu osobu ❤" />
+    <meta property="og:description" content="Jedan mali poklon, ispunjen velikom ljubavlju." />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23B97A7F' d='M12 20.5s-7.5-4.6-9.3-9.6C1.5 7.6 3.6 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.3 0 5.4 3.1 4.2 6.4-1.8 5-9.3 9.6-9.3 9.6z'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <noscript>
+      <p style="font-family: Georgia, serif; text-align: center; padding: 3rem 1.5rem; color: #47352f">
+        Za ovaj poklon potrebno je uključiti JavaScript u pregledniku. ❤
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <!-- All texts: edit content.js -->
+    <script src="./content.js"></script>
+    <script>
+      if (!window.SITE_CONTENT) {
+        document.getElementById('root').innerHTML =
+          '<p style="font-family: Georgia, serif; text-align: center; padding: 3rem 1.5rem; color: #47352f; line-height: 1.6">' +
+          'Stranica se trenutno ne može otvoriti.<br><small>content.js could not be loaded — check the last edit for a missing quote or comma.</small></p>'
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
